@@ -1,1 +1,87 @@
+#### Encapsulation And Abstraction
+Encapsulation and abstraction are two fundamental principles of Object-Oriented Programming (OOP) that help in designing robust, maintainable, and reusable code. Encapsulation involves bundling data and methods that operate on the data within a single unit, while abstraction involves hiding complex implementation details and exposing only the necessary features.
 
+##### Encapsulation
+Encapsulation is the concept of wrapping data (variables) and methods (functions) together as a single unit. It restricts direct access to some of the object's components, which is a means of preventing accidental interference and misuse of the data.
+
+### Encapsulation  with Getter and Setter MEthods
+### Public,protected,private variables or access modifiers
+
+class Person:
+    def __init__(self,name,age):
+        self.name=name    ## public variables
+        self.age=age      ## public variables
+
+def get_name(person):
+    return person.name
+
+person=Person("Krish",34)
+get_name(person)
+
+dir(person)
+
+class Person:
+    def __init__(self,name,age,gender):
+        self.__name=name    ## private variables
+        self.__age=age      ## private variables
+        self.gender=gender
+
+def get_name(person):
+    return person.__name
+
+person=Person("Krish",34,"Male")
+get_name(person)
+
+dir(person)
+
+class Person:
+    def __init__(self,name,age,gender):
+        self._name=name    ## protected variables
+        self._age=age      ## protected variables
+        self.gender=gender
+
+class Employee(Person):
+    def __init__(self,name,age,gender):
+        super().__init__(name,age,gender)
+
+
+employee=Employee("KRish",34,"Male")
+print(employee._name)
+
+## Encapsulation With Getter And Setter
+class Person:
+    def __init__(self,name,age):
+        self.__name=name  ## Private access modifier or variable
+        self.__age=age ## Private variable
+
+    ## getter method for name
+    def get_name(self):
+        return self.__name
+    
+    ## setter method for name
+    def set_name(self,name):
+        self.__name=name
+
+    # Getter method for age
+    def get_age(self):
+        return self.__age
+    
+    # Setter method for age
+    def set_age(self, age):
+        if age > 0:
+            self.__age = age
+        else:
+            print("Age cannot be negative.")
+
+
+person=Person("Krish",34)
+
+## Access and modify private variables using getter and setter
+
+print(person.get_name())
+print(person.get_age())
+
+person.set_age(35)
+print(person.get_age())
+
+person.set_age(-5)
