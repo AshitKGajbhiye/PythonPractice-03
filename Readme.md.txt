@@ -22,8 +22,15 @@ https://rest-apis-flask.teclado.com/docs/first_rest_api/project_overview/
 https://www.hackerrank.com/domains/python
 Course: The Complete Python Bootcamp From Zero to Hero in Python | Udemy Business
 
+PPT
+https://www.slideshare.net/slideshow/python-interview-prep-question-52-questions/265460749#9
+
+FastAPI
+https://github.com/campusx-official/fastapi-course
+
 AI/ Gen AI
 Master LangChain & Gen AI -Build #16 AI Apps HuggingFace LLM | Udemy Business
 
 Complete Python With DSA Bootcamp + LEETCODE Exercises | Udemy Business
+
 
