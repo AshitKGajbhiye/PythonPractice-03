@@ -1,1 +1,93 @@
+####  Classes and Objects
+Object-Oriented Programming (OOP) is a programming paradigm that uses "objects" to design applications and computer programs. OOP allows for modeling real-world scenarios using classes and objects. This lesson covers the basics of creating classes and objects, including instance variables and methods.
 
+### A class is a blue print for creating objects. Attributes,methods
+class Car:
+    pass
+
+audi=Car()
+bmw=Car()
+
+print(type(audi))
+
+print(audi)
+print(bmw)
+
+audi.windows=4
+
+print(audi.windows)
+
+tata=Car()
+tata.doors=4
+print(tata.windows)
+
+dir(tata)
+
+### Instance Variable and Methods
+class Dog:
+    ## constructor
+    def __init__(self,name,age):
+        self.name=name
+        self.age=age
+
+## create objects
+dog1=Dog("Buddy",3)
+print(dog1)
+print(dog1.name)
+print(dog1.age)
+
+dog2=Dog("Lucy",4)
+print(dog2.name)
+print(dog2.age)
+
+## Define a class with instance methods
+class Dog:
+    def __init__(self,name,age):
+        self.name=name
+        self.age=age
+    
+    def bark(self):
+        print(f"{self.name} says woof")
+
+
+dog1=Dog("Buddy",3)
+dog1.bark()
+dog2=Dog("Lucy",4)
+dog2.bark()
+
+### Modeling a Bank Account
+
+## Define a class for bank account
+class BankAccount:
+    def __init__(self,owner,balance=0):
+        self.owner=owner
+        self.balance=balance
+
+    def deposit(self,amount):
+        self.balance+=amount
+        print(f"{amount} is deposited. New balance is {self.balance}")
+
+    def withdraw(self,amount):
+        if amount>self.balance:
+            print("Insufficient funds!")
+        else:
+            self.balance-=amount
+            print(f"{amount} is withdrawn. New Balance is {self.balance}")
+
+    def get_balance(self):
+        return self.balance
+    
+## create an account
+
+account=BankAccount("Krish",5000)
+print(account.balance)
+
+## Call isntance methods
+account.deposit(100)
+
+account.withdraw(300)
+
+print(account.get_balance())
+
+#### Conclusion
+Object-Oriented Programming (OOP) allows you to model real-world scenarios using classes and objects. In this lesson, you learned how to create classes and objects, define instance variables and methods, and use them to perform various operations. Understanding these concepts is fundamental to writing effective and maintainable Python code.
