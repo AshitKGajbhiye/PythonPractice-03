@@ -1,1 +1,34 @@
+### Iterators
+Iterators are advanced Python concepts that allow for efficient looping and memory management. Iterators provide a way to access elements of a collection sequentially without exposing the underlying structure.
 
+my_list=[1,2,3,4,5,6]
+for i in my_list:
+    print(i)
+
+type(my_list)
+
+print(my_list)
+
+## Iterator
+iterator=iter(my_list)
+print(type(iterator))
+
+iterator
+
+## Iterate through all the element
+
+next(iterator)
+
+iterator=iter(my_list)
+
+try:
+    print(next(iterator))
+except StopIteration:
+    print("There are no elements in the iterator")
+
+# String iterator
+my_string = "Hello"
+string_iterator = iter(my_string)
+
+print(next(string_iterator))  # Output: H
+print(next(string_iterator))  # Output: e
