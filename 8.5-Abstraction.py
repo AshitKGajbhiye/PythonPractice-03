@@ -1,5 +1,5 @@
 #### Abstraction
-Abstraction is the concept of hiding the complex implementation details and showing only the necessary features of an object. This helps in reducing programming complexity and effort.
+'''Abstraction is the concept of hiding the complex implementation details and showing only the necessary features of an object. This helps in reducing programming complexity and effort.'''
 
 from abc import ABC,abstractmethod
 

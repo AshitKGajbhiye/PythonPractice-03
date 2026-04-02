@@ -1,5 +1,5 @@
 #### Inheritance In Python
-Inheritance is a fundamental concept in Object-Oriented Programming (OOP) that allows a class to inherit attributes and methods from another class. This lesson covers single inheritance and multiple inheritance, demonstrating how to create and use them in Python.
+'''Inheritance is a fundamental concept in Object-Oriented Programming (OOP) that allows a class to inherit attributes and methods from another class. This lesson covers single inheritance and multiple inheritance, demonstrating how to create and use them in Python.'''
 
 ## Inheritance (Single Inheritance)
 ## Parent class
@@ -38,7 +38,7 @@ class Animal:
     def speak(self):
         print("Subclass must implement this method")
 
-## BAse class 2
+## Base class 2
 class Pet:
     def __init__(self, owner):
         self.owner = owner
@@ -60,4 +60,4 @@ print(dog.speak())
 print(f"Owner:{dog.owner}")
 
 #### Conclusion
-Inheritance is a powerful feature in OOP that allows for code reuse and the creation of a more logical class structure. Single inheritance involves one base class, while multiple inheritance involves more than one base class. Understanding how to implement and use inheritance in Python will enable you to design more efficient and maintainable object-oriented programs.
+'''Inheritance is a powerful feature in OOP that allows for code reuse and the creation of a more logical class structure. Single inheritance involves one base class, while multiple inheritance involves more than one base class. Understanding how to implement and use inheritance in Python will enable you to design more efficient and maintainable object-oriented programs.'''

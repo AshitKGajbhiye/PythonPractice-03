@@ -1,8 +1,8 @@
 #### Encapsulation And Abstraction
-Encapsulation and abstraction are two fundamental principles of Object-Oriented Programming (OOP) that help in designing robust, maintainable, and reusable code. Encapsulation involves bundling data and methods that operate on the data within a single unit, while abstraction involves hiding complex implementation details and exposing only the necessary features.
+'''Encapsulation and abstraction are two fundamental principles of Object-Oriented Programming (OOP) that help in designing robust, maintainable, and reusable code. Encapsulation involves bundling data and methods that operate on the data within a single unit, while abstraction involves hiding complex implementation details and exposing only the necessary features.'''
 
 ##### Encapsulation
-Encapsulation is the concept of wrapping data (variables) and methods (functions) together as a single unit. It restricts direct access to some of the object's components, which is a means of preventing accidental interference and misuse of the data.
+'''Encapsulation is the concept of wrapping data (variables) and methods (functions) together as a single unit. It restricts direct access to some of the object's components, which is a means of preventing accidental interference and misuse of the data.'''
 
 ### Encapsulation  with Getter and Setter MEthods
 ### Public,protected,private variables or access modifiers

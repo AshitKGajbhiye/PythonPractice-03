@@ -1,5 +1,5 @@
 #### Decorators
-Decorators are a powerful and flexible feature in Python that allows you to modify the behavior of a function or class method. They are commonly used to add functionality to functions or methods without modifying their actual code. This lesson covers the basics of decorators, including how to create and use them.
+'''Decorators are a powerful and flexible feature in Python that allows you to modify the behavior of a function or class method. They are commonly used to add functionality to functions or methods without modifying their actual code. This lesson covers the basics of decorators, including how to create and use them.'''
 
 ### function copy
 ### closures
@@ -83,7 +83,7 @@ def say_hello():
 
 say_hello()
 
-## Decorators WWith arguments
+## Decorators With arguments
 def repeat(n):
     def decorator(func):
         def wrapper(*args, **kwargs):
@@ -101,4 +101,4 @@ say_hello()
 
 
 #### Conclusion
-Decorators are a powerful tool in Python for extending and modifying the behavior of functions and methods. They provide a clean and readable way to add functionality such as logging, timing, access control, and more without changing the original code. Understanding and using decorators effectively can significantly enhance your Python programming skills.
+'''Decorators are a powerful tool in Python for extending and modifying the behavior of functions and methods. They provide a clean and readable way to add functionality such as logging, timing, access control, and more without changing the original code. Understanding and using decorators effectively can significantly enhance your Python programming skills.'''

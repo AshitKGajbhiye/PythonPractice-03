@@ -1,5 +1,5 @@
 ####  Classes and Objects
-Object-Oriented Programming (OOP) is a programming paradigm that uses "objects" to design applications and computer programs. OOP allows for modeling real-world scenarios using classes and objects. This lesson covers the basics of creating classes and objects, including instance variables and methods.
+'''Object-Oriented Programming (OOP) is a programming paradigm that uses "objects" to design applications and computer programs. OOP allows for modeling real-world scenarios using classes and objects. This lesson covers the basics of creating classes and objects, including instance variables and methods.'''
 
 ### A class is a blue print for creating objects. Attributes,methods
 class Car:
@@ -90,4 +90,4 @@ account.withdraw(300)
 print(account.get_balance())
 
 #### Conclusion
-Object-Oriented Programming (OOP) allows you to model real-world scenarios using classes and objects. In this lesson, you learned how to create classes and objects, define instance variables and methods, and use them to perform various operations. Understanding these concepts is fundamental to writing effective and maintainable Python code.
+'''Object-Oriented Programming (OOP) allows you to model real-world scenarios using classes and objects. In this lesson, you learned how to create classes and objects, define instance variables and methods, and use them to perform various operations. Understanding these concepts is fundamental to writing effective and maintainable Python code.'''

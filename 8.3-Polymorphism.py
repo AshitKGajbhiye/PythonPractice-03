@@ -1,8 +1,8 @@
 #### Polymorphism
-Polymorphism is a core concept in Object-Oriented Programming (OOP) that allows objects of different classes to be treated as objects of a common superclass. It provides a way to perform a single action in different forms. Polymorphism is typically achieved through method overriding and interfaces
+'''Polymorphism is a core concept in Object-Oriented Programming (OOP) that allows objects of different classes to be treated as objects of a common superclass. It provides a way to perform a single action in different forms. Polymorphism is typically achieved through method overriding and interfaces'''
 
 ###  Method Overriding
-Method overriding allows a child class to provide a specific implementation of a method that is already defined in its parent class.
+'''Method overriding allows a child class to provide a specific implementation of a method that is already defined in its parent class.'''
 
 ## Base Class
 class Animal:
@@ -29,7 +29,7 @@ print(dog.speak())
 print(cat.speak())
 animal_speak(dog)
 
-### Polymorphissm with Functions and MEthods
+### Polymorphissm with Functions and Methods
 ## base class
 class Shape:
     def area(self):
@@ -66,7 +66,7 @@ print_area(rectangle)
 print_area(circle)
 
 #### Polymorphism with Abstract Base Classes
-Abstract Base Classes (ABCs) are used to define common methods for a group of related objects. They can enforce that derived classes implement particular methods, promoting consistency across different implementations.
+'''Abstract Base Classes (ABCs) are used to define common methods for a group of related objects. They can enforce that derived classes implement particular methods, promoting consistency across different implementations.'''
 
 from abc import ABC,abstractmethod
 
@@ -98,4 +98,4 @@ motorcycle = Motorcycle()
 start_vehicle(car)
 
 #### Conclusion
-Polymorphism is a powerful feature of OOP that allows for flexibility and integration in code design. It enables a single function to handle objects of different classes, each with its own implementation of a method. By understanding and applying polymorphism, you can create more extensible and maintainable object-oriented programs.
+'''Polymorphism is a powerful feature of OOP that allows for flexibility and integration in code design. It enables a single function to handle objects of different classes, each with its own implementation of a method. By understanding and applying polymorphism, you can create more extensible and maintainable object-oriented programs.'''
